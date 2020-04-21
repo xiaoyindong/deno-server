@@ -1,0 +1,23 @@
+{
+  "name": "deno-server",
+  "version": "1.0.0",
+  "description": "deno服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "deno --allow-net ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyindong/deno-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyindong/deno-server/issues"
+  },
+  "homepage": "https://github.com/xiaoyindong/deno-server#readme",
+  "dependencies": {
+    "forever": "^2.0.0"
+  }
+}
